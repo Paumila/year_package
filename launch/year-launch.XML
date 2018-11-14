@@ -1,0 +1,7 @@
+<launch>
+
+<rosparam command="load" file="$(find year_package)/config/year.yaml"/>
+
+<node name="rviz" pkg="rviz" type="rviz"/>
+
+</launch>
